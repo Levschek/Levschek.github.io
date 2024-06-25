@@ -1,56 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">  <!--for small pictures-->
 </head>
 <body>
     <header>
-        <h1>Lev Shchekatur-My Portfolio</h1>
+        <h1>Lev Shchekatur's Portfolio</h1>
         <nav>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#at">About Me</a></li>
+                <li><a href="#projects">My Projects</a></li>   <!--It's a link to different parts of portfolio-->
+                <li><a href="#contact">Contact Me</a></li>
             </ul>
         </nav>
     </header>
     
-    <section id="about">
+    <section id="at">
         <h2>About Me</h2>
         <p>Welcome to my portfolio! My name is Lev Shchekatur and I am a Computer Scientist! I am 
             21 years old and have skills and knowledge in different fields of natural sciencies and IT- from quantum
             physics to machine learning. Moreover, I enjoy reading books and travelling around the world! In a professional
             environment, I am keen on working in a team and take up the leading position, if it means completing the project.
         </p>
-        <p>  
+        <p>  <!--Basic text structure with paragraphs-->
             Before my current status as a student at GISMA University of Applied Sciencies, I studied physics at the Saint-Petersburg
             University of Peter-the-Great. It was a long journey that helped me understand my true passion- IT. 
         </p>
         <p>
-            Putting the technical part aside, I am also a capable translator betwenn German, Russian and English, having gained
+            Putting the technical part aside, I am also a capable translator between German, Russian and English, having gained
             recognition during my school years at the annual English competition in Russia.
         </p>
     </section>
     
     <section id="info">
-        <div class="info-box">
+        <div class="info-box">  <!--A box within a new section in order to have two rows of information-->
             <h3>Education</h3>
             <ul>
                 <li>Bachelor of Science in Solid State Physics - Saint-Petersburg University of Peter-the-Great- Unfinished
                     (2021-2024)
                 </li>
                 <li>High School Diploma - (2010-2021)</li>
-            </ul>
+            </ul>       <!--Bullet points-->
         </div>
         <div class="info-box">
             <h3>Experience</h3>
             <ul>
                 <li>Data Base Assistant (2021 - 2022)</li>
-                <li>Junior research associate (2023 - 2024)</li>
+                <li>Junior Research Associate (2023 - 2024)</li>
             </ul>
         </div>
     </section>
@@ -89,24 +86,24 @@
     </section>
 
     <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
+        <h2>My Projects</h2>
+        <div class="pt">
             <h3>3D Design out of Wood</h3>
-            <p>This was a small univeresity project, in which I was tasked to design
-                and manufacture small decorations for the Open Day. I used Fusion360 complete this task. 
+            <p>This was a small university project, in which I was tasked to design
+                and manufacture small decorations for the Open Day on a laser lathe. I used Fusion360 complete this task. 
             </p>
         </div>
-        <div class="project">
+        <div class="pt">
             <h3>Writing a code for Sturm–Liouville theory</h3>
             <p>Another univeresity project where I had to compute the solutions for an ordinary
                 second order differential equation on Fortran. It was a math-intensive project that 
                 involved elements not only from Calculus but also from Linear Algebra and Computational
                 analysis. 
-            </p>
+            </p> <!--Link through OneDrive-->
             <a href="https://gismauniversity-my.sharepoint.com/:b:/g/personal/lev_shchekatur_gisma-student_com/ESPOTATfTLRMsqvv1gjHxo8B_m-ISWzAHpabdf7B6qrkNw?e=NfLK9m"
              download="Курсовая работа.pdf" download class="db1">Download the Project (in Russian)</a>
         </div>
-        <div class="project">
+        <div class="pt">
             <h3>H-bridge software development</h3>
             <p> As part of my internship, I was tasked to help create an H-Bridge- a small device that
                 would change the direction of the elecric current with the press of a button. It involved
@@ -114,7 +111,7 @@
                 Arduino IDE.  
             </p>
         </div>
-        <div class="project">
+        <div class="pt">
             <h3>Machine learning model based on open source data</h3>
             <p> This on-going project is an exercise to train a model to accurately predict the relationship
                 between the housing prices in the USA and various extraneous features. I use most common Python libraries
@@ -122,22 +119,17 @@
             </p>
         </div>
     </section>
-    <a href="https://gismauniversity-my.sharepoint.com/:b:/g/personal/lev_shchekatur_gisma-student_com/EVSyGPpgZGNFqoPFz42K7n8BrJyD8lxSpZuccNPKy8-R_Q?e=1DjL23"
-             download="CV_LEV.pdf" download class="db1">My CV</a>
+    
     <section id="contact">
-        <h2>Contact</h2>
+        <a href="https://gismauniversity-my.sharepoint.com/:b:/g/personal/lev_shchekatur_gisma-student_com/EVSyGPpgZGNFqoPFz42K7n8BrJyD8lxSpZuccNPKy8-R_Q?e=1DjL23"
+             download="CV_LEV.pdf" download class="db1">My CV</a>
+        <h2>Contact Me</h2>
         <a href="https://github.com/Levschek" target="_blank">
-            <i class="fab fa-github" style="font-size: 3em;"></i>
+            <i class="fab fa-github"></i>
         </a>
         <a href="https://www.linkedin.com/in/lev-shchekatur-50799530b/" target="_blank">
             <i class="fab fa-linkedin"></i>
         </a>
     </section>
-
-    <footer>
-        <p>&copy; 2024 My Portfolio</p>
-    </footer>
-
-    <script src="scripts.js"></script>
 </body>
 </html>
